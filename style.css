@@ -1,0 +1,30 @@
+body {
+  background-image: url(./jaguar-xe.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.content {
+  justify-content: center;
+  align-items: center;
+  margin: 40px 40px 7px 104px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 15px;
+  max-width: 600px;
+}
+.btn1 {
+  background-color: #db3030;
+  color: white;
+  flex-direction: column;
+  margin: 0px 4px 8px 0px;
+}
+@media (min-width: 500px) {
+  .content {
+    max-width: 51%;
+  }
+}
+@media (min-width: 768px) {
+  .content {
+    max-width: 45%;
+  }
+}
